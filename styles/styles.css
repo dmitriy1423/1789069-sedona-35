@@ -732,11 +732,6 @@ body {
 .field-group-date .field {
   padding: 12px 20px;
   width: 440px;
-  font: inherit;
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: 700;
-  color: #000000;
   background-image: url("../images/icons/date.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
@@ -760,11 +755,7 @@ body {
 .field-group-number .field {
   width: 31px;
   height: 48px;
-  font: inherit;
-  font-size: 18px;
   line-height: 20px;
-  font-weight: 700;
-  color: #000000;
   text-align: center;
   border-radius: 0;
   z-index: 1;
