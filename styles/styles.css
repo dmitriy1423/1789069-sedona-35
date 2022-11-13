@@ -333,7 +333,7 @@ body {
 }
 
 .advantages-item-blue .advantages-title::before {
-  background-color: rgba(255, 255, 255, 0.3);;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .advantages-item-house .advantages-title::before,
@@ -594,6 +594,7 @@ body {
 
 .modal-container-open {
   display: flex;
+  overflow: auto;
 }
 
 .modal {
@@ -718,6 +719,12 @@ body {
 }
 
 .field-group-number .field {
+  width: 31px;
+  height: 48px;
+  line-height: 20px;
+  text-align: center;
+  border-radius: 0;
+  z-index: 1;
   -webkit-appearance: textfield;
   -moz-appearance: textfield;
   appearance: textfield;
@@ -750,15 +757,6 @@ body {
 .field-group-number {
   display: flex;
   align-items: center;
-}
-
-.field-group-number .field {
-  width: 31px;
-  height: 48px;
-  line-height: 20px;
-  text-align: center;
-  border-radius: 0;
-  z-index: 1;
 }
 
 .field-group-number .auth-form-label {
